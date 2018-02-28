@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'rails_admin', '~> 1.3'
 gem 'react-rails'
 gem "paperclip", "~> 5.2.1"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
